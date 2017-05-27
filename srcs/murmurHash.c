@@ -6,13 +6,13 @@
 /*   By: cpoulet <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/27 13:48:43 by cpoulet           #+#    #+#             */
-/*   Updated: 2017/05/27 14:55:49 by cpoulet          ###   ########.fr       */
+/*   Updated: 2017/05/27 17:52:07 by cpoulet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "hotrace"
+#include "hotrace.h"
 
-unsigned int	murmurhash(unsigned char *key, unsigned int nbytes)
+unsigned int	murmurhash(char *key, unsigned int nbytes)
 {
 	const unsigned int	*blocks;
 	const unsigned char	*tail;
